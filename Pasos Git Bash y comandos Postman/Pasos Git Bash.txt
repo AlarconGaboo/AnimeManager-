@@ -1,0 +1,45 @@
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6 (master)
+$ mkdir anime-crud
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6 (master)
+$ cd anime-crud
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6/anime-crud (master)
+$ npm init -y
+Wrote to C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\Consolidacion-M6\anime-crud\package.json:
+
+{
+  "name": "anime-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6/anime-crud (master)
+$ npm install express
+
+added 65 packages, and audited 66 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6/anime-crud (master)
+$ touch anime.json
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6/anime-crud (master)
+$ touch index.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/Consolidacion-M6/anime-crud (master)
+$

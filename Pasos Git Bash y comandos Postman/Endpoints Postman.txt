@@ -1,0 +1,48 @@
+1. Obtener todos los animes
+Método: GET
+URL: http://localhost:8000/animes
+Descripción: Obtiene la lista completa de todos los animes almacenados en el archivo anime.json.
+
+2. Obtener un anime por ID
+Método: GET
+URL: http://localhost:8000/animes/:id
+Ejemplo: http://localhost:8000/animes/1
+Descripción: Obtiene los detalles de un anime específico según su ID.
+
+3. Obtener un anime por nombre
+Método: GET
+URL: http://localhost:8000/animes/nombre/:nombre
+Ejemplo: http://localhost:8000/animes/nombre/akira
+Descripción: Busca un anime por su nombre (insensible a mayúsculas/minúsculas).
+
+4. Agregar un nuevo anime
+Método: POST
+URL: http://localhost:8000/animes
+Body (JSON): 
+{
+  "nombre": "One Piece",
+  "genero": "Shonen",
+  "año": "1999",
+  "autor": "Eiichiro Oda"
+}
+Descripción: Crea un nuevo anime y lo guarda en anime.json.
+
+5. Editar un anime existente
+Método: PUT
+URL: http://localhost:8000/animes/:id
+Ejemplo: http://localhost:8000/animes/1
+Body (JSON): ejemplo
+{
+  "nombre": "Akira",
+  "genero": "Seinen",
+  "año": "1988",
+  "autor": "Katsuhiro Otomo Remake"
+}
+Descripción: Actualiza los detalles de un anime existente utilizando su ID.
+
+6. Eliminar un anime
+Método: DELETE
+URL: http://localhost:8000/animes/:id
+Ejemplo: http://localhost:8000/animes/2
+Descripción: Elimina un anime específico de la lista según su ID.
+
